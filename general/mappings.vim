@@ -1,28 +1,4 @@
-
-syntax on
-set nocp
-set encoding=utf-8
-"set filetype=on 
-
-" you should running command:sudo pacman -S xsel 
-set clipboard=unnamedplus
-set number
-set relativenumber
-
-set tabstop=4
-set expandtab
-set shiftwidth=4
-set backspace=indent,eol,start
-
-set wmnu
-set scrolloff=10
-
-set hls
-set ic
-set scs
-set is
 nnoremap <Space> :nohls<CR>
-
 nnoremap h i
 nnoremap H I
 noremap i gk
@@ -40,13 +16,13 @@ nnoremap s <nop>
 nnoremap S <nop>
 
 nnoremap q :q<CR>
-
 nnoremap  Q :q!<CR>
 
 nnoremap W :w<cr>
 nnoremap R :so %<CR>
 
 nnoremap <F5> :update<CR>:source %<CR>
+
 
 "左右分屏 光标在右边窗口
 "nnoremap sl :set splitright<CR>:vsplit<CR>
