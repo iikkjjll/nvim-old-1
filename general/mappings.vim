@@ -19,10 +19,18 @@ nnoremap q :q<CR>
 nnoremap  Q :q!<CR>
 
 nnoremap W :w<cr>
-nnoremap R :so %<CR>
+noremap R :so %<CR>
 
 nnoremap <F5> :update<CR>:source %<CR>
 
+ :map ' H" <ESC>0
+ :map " 0xx
+ :map  H# <ESC>0
+ :map # 0xx
+ :map  H // <ESC>0
+ :map ? H<ESC>xxxx
+ :map <BS> H/*<ESC>A*/<ESC>0
+ :map * H<ESC>xxr<Space>$xx
 
 "左右分屏 光标在右边窗口
 "nnoremap sl :set splitright<CR>:vsplit<CR>
